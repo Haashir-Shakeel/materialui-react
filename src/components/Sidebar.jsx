@@ -1,5 +1,5 @@
-import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material"
-import {AccountBox, Article, Group, Home, Person, Settings, Storefront} from '@mui/icons-material'
+import { Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch } from "@mui/material"
+import {AccountBox, Article, Group, Home, ModeNight, Person, Settings, Storefront} from '@mui/icons-material'
 export const Sidebar = ()=>{
     return(
         <Box  
@@ -69,6 +69,16 @@ export const Sidebar = ()=>{
                     <ListItemText primary="Profile"/>
                 </ListItemButton>
             </ListItem>
+
+            <ListItem disablePadding>
+                <ListItemButton component="a" href="#simple-list">
+                    <ListItemIcon>
+                        <ModeNight/>
+                    </ListItemIcon>
+                    <Switch></Switch>
+                </ListItemButton>
+            </ListItem>
+
         </List>
 
         </Box>
