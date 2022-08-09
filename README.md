@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+Social media UI designed using React + MUI
+
+![](https://github.com/Haashir-Shakeel/Project-Images/blob/main/socialmediaUI_react/darkTheme.JPG)
+![](https://github.com/Haashir-Shakeel/Project-Images/blob/main/socialmediaUI_react/lightTheme.JPG)
+![](https://github.com/Haashir-Shakeel/Project-Images/blob/main/socialmediaUI_react/addPost.JPG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
